@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:rgb(116, 146, 202);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* border-radius: 1rem; */
+    
+
+}
+
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    
+    
+    border:none;
+    box-shadow: 1px 1px 2px black,-1px -1px 2px black;
+    font-size: 10vmin;
+    color:crimson;
+    background-color:rgb(233, 249, 129);
+}
+#reset{
+    padding: 1rem;
+    background-color: rgb(75, 71, 71);
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 800;
+}
+#new-btn{
+    padding: 1rem;
+    background-color: rgb(75, 71, 71);
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 800;
+}
+
+#winner{
+    color:rgb(233, 249, 129);
+    font-size: 6vmin;
+}
+
+.container1{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+
+#Draw{
+    font-size: 10vh;
+    font-weight: 800;
+}
+#newGame{
+    padding: 1rem;
+    background-color: rgb(75, 71, 71);
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 800;
+}
+.container2{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.hide1{
+    display: none;
+}
